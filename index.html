@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Uncle's Gift to Khusu</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="title">Uncle's Gift to Khusu 💝</h1>
+
+    <img src="images/monkey.png" alt="Funny Monkey" class="monkey" />
+
+    <p class="caption">
+      I heard you were sad ki p.w0aa would have a valentine this month  
+      and you won’t! 🥹  
+      Is it true?
+    </p>
+
+    <div class="btn-group">
+      <button class="next-btn" onclick="handleYes()">Yes 😔</button>
+      <button class="next-btn outline" onclick="goNext()">No 😌</button>
+    </div>
+  </div>
+
+  <!-- POPUP -->
+  <div id="popup" class="popup hidden">
+    <div class="popup-content">
+      <h2>So you chose No! 😏</h2>
+      <p>I knew why would even my baby be sad 💖</p>
+
+      <img src="images/kid.png" class="popup-img" alt="Funny Kid" />
+
+      <p class="timer-text">
+        Taking you to your surprise in  
+        <span id="countdown">10</span> seconds ⏳
+      </p>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
