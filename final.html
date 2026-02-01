@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <title>Chappriiiiiiiiiiii</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="surprise-body">
+
+  <div class="final-box">
+    <h1>One Last Thing… 🎶</h1>
+    <p>I cannot show up in person, but would try my best to keep you happy and safe always in all possible ways</p>
+
+    <video 
+      id="loveVideo"
+      class="video-frame"
+      playsinline
+      preload="metadata"
+    >
+      <source src="videos/singing.mp4" type="video/mp4" />
+    </video>
+
+    <div class="video-controls">
+      <button onclick="togglePlay()">▶️</button>
+      <button onclick="toggleMute()">🔊</button>
+      <input type="range" min="0" max="1" step="0.01" value="0.7"
+        onchange="changeVolume(this.value)" />
+    </div>
+
+    <p class="end-line">
+      No matter what… I’m always here 🤍
+    </p>
+  </div>
+
+  <script src="js/final.js"></script>
+</body>
+</html>
